@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<portal>
+	<port>8081</port>
+	<ssl_port>8443</ssl_port>
+	<commands>
+		<command>
+			<id>1</id>
+			<name>BiddingAllProcessor</name>
+			<path>com.egp.bidding.api.processors.BiddingAllProcessor</path>
+		</command>		
+		<command>
+			<id>2</id>
+			<name>BiddingProcessor</name>
+			<path>com.egp.bidding.api.processors.BiddingProcessor</path>
+		</command>			
+	</commands>
+</portal>

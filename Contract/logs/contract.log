@@ -1,0 +1,287 @@
+20 Dec 2019, 08:57:48,120 Logging initialized.
+20 Dec 2019, 08:57:48,123 STARTING BIDDING API SERVER .... !!!!
+20 Dec 2019, 08:57:48,157 1 <-> com.egp.contract.api.processors.ContracsAllProcessor
+20 Dec 2019, 08:57:48,157 2 <-> com.egp.contract.api.processors.ContracsProcessor
+20 Dec 2019, 08:57:48,223 Logging to org.slf4j.impl.Log4jLoggerAdapter(org.eclipse.jetty.util.log) via org.eclipse.jetty.util.log.Slf4jLog
+20 Dec 2019, 08:57:48,235 Logging initialized @399ms
+20 Dec 2019, 08:57:48,247 org.eclipse.jetty.server.Server@2530c12 added {qtp580024961{STOPPED,8<=0<=200,i=0,q=0},AUTO}
+20 Dec 2019, 08:57:48,266 HttpConnectionFactory@cac736f{HTTP/1.1} added {HttpConfiguration@5e265ba4{32768/8192,8192/8192,https://:0,[]},POJO}
+20 Dec 2019, 08:57:48,269 ServerConnector@53bd815b{null}{0.0.0.0:0} added {org.eclipse.jetty.server.Server@2530c12,UNMANAGED}
+20 Dec 2019, 08:57:48,270 ServerConnector@53bd815b{null}{0.0.0.0:0} added {qtp580024961{STOPPED,8<=0<=200,i=0,q=0},AUTO}
+20 Dec 2019, 08:57:48,270 ServerConnector@53bd815b{null}{0.0.0.0:0} added {org.eclipse.jetty.util.thread.ScheduledExecutorScheduler@36aa7bc2,AUTO}
+20 Dec 2019, 08:57:48,270 ServerConnector@53bd815b{null}{0.0.0.0:0} added {org.eclipse.jetty.io.ArrayByteBufferPool@2401f4c3,POJO}
+20 Dec 2019, 08:57:48,271 ServerConnector@53bd815b{null}{0.0.0.0:0} added {HttpConnectionFactory@cac736f{HTTP/1.1},AUTO}
+20 Dec 2019, 08:57:48,273 ServerConnector@53bd815b{HTTP/1.1}{0.0.0.0:0} added {org.eclipse.jetty.server.ServerConnector$ServerConnectorManager@41a4555e,MANAGED}
+20 Dec 2019, 08:57:48,280 SslConnectionFactory@5fdef03a{SSL-http/1.1} added {SslContextFactory@3b22cdd0(config/apiegp.jks,null),AUTO}
+20 Dec 2019, 08:57:48,280 HttpConnectionFactory@1e81f4dc{HTTP/1.1} added {HttpConfiguration@4d591d15{32768/8192,8192/8192,https://:0,[SecureRequestCustomizer@65ae6ba4]},POJO}
+20 Dec 2019, 08:57:48,281 ServerConnector@59f95c5d{null}{0.0.0.0:0} added {org.eclipse.jetty.server.Server@2530c12,UNMANAGED}
+20 Dec 2019, 08:57:48,281 ServerConnector@59f95c5d{null}{0.0.0.0:0} added {qtp580024961{STOPPED,8<=0<=200,i=0,q=0},AUTO}
+20 Dec 2019, 08:57:48,282 ServerConnector@59f95c5d{null}{0.0.0.0:0} added {org.eclipse.jetty.util.thread.ScheduledExecutorScheduler@48cf768c,AUTO}
+20 Dec 2019, 08:57:48,282 ServerConnector@59f95c5d{null}{0.0.0.0:0} added {org.eclipse.jetty.io.ArrayByteBufferPool@5ccd43c2,POJO}
+20 Dec 2019, 08:57:48,282 ServerConnector@59f95c5d{null}{0.0.0.0:0} added {SslConnectionFactory@5fdef03a{SSL-http/1.1},AUTO}
+20 Dec 2019, 08:57:48,282 ServerConnector@59f95c5d{SSL-http/1.1}{0.0.0.0:0} added {HttpConnectionFactory@1e81f4dc{HTTP/1.1},AUTO}
+20 Dec 2019, 08:57:48,282 ServerConnector@59f95c5d{SSL-http/1.1}{0.0.0.0:0} added {org.eclipse.jetty.server.ServerConnector$ServerConnectorManager@4aa8f0b4,MANAGED}
+20 Dec 2019, 08:57:48,300 org.eclipse.jetty.servlet.ServletHandler@77afea7d added {com.egp.contract.api.server.CorsFilter-75828a0f,AUTO}
+20 Dec 2019, 08:57:48,304 org.eclipse.jetty.servlet.ServletHandler@77afea7d added {[/*]/[]==1=>com.egp.contract.api.server.CorsFilter-75828a0f,POJO}
+20 Dec 2019, 08:57:48,325 org.eclipse.jetty.servlet.ServletHandler@77afea7d added {com.egp.contract.api.server.JettyServer$JeetyServlet-567d299b@a77d794a==com.egp.contract.api.server.JettyServer$JeetyServlet,-1,false,AUTO}
+20 Dec 2019, 08:57:48,327 org.eclipse.jetty.servlet.ServletHandler@77afea7d added {[/api]=>com.egp.contract.api.server.JettyServer$JeetyServlet-567d299b,POJO}
+20 Dec 2019, 08:57:48,329 org.eclipse.jetty.server.handler.HandlerCollection@6c629d6e[org.eclipse.jetty.servlet.ServletHandler@77afea7d] added {org.eclipse.jetty.servlet.ServletHandler@77afea7d,AUTO}
+20 Dec 2019, 08:57:48,330 org.eclipse.jetty.server.Server@2530c12 added {org.eclipse.jetty.server.handler.HandlerCollection@6c629d6e[org.eclipse.jetty.servlet.ServletHandler@77afea7d],AUTO}
+20 Dec 2019, 08:57:48,330 org.eclipse.jetty.server.Server@2530c12 added {ServerConnector@53bd815b{HTTP/1.1}{0.0.0.0:8082},AUTO}
+20 Dec 2019, 08:57:48,330 org.eclipse.jetty.server.Server@2530c12 added {ServerConnector@59f95c5d{SSL-http/1.1}{0.0.0.0:8444},AUTO}
+20 Dec 2019, 08:57:48,331 starting org.eclipse.jetty.server.Server@2530c12
+20 Dec 2019, 08:57:48,334 jetty-9.2.10.v20150310
+20 Dec 2019, 08:57:48,364 starting org.eclipse.jetty.server.Server@2530c12
+20 Dec 2019, 08:57:48,365 starting qtp580024961{STOPPED,8<=0<=200,i=0,q=0}
+20 Dec 2019, 08:57:48,367 STARTED @534ms qtp580024961{STARTED,8<=8<=200,i=1,q=0}
+20 Dec 2019, 08:57:48,367 starting org.eclipse.jetty.server.handler.HandlerCollection@6c629d6e[org.eclipse.jetty.servlet.ServletHandler@77afea7d]
+20 Dec 2019, 08:57:48,367 starting org.eclipse.jetty.server.handler.HandlerCollection@6c629d6e[org.eclipse.jetty.servlet.ServletHandler@77afea7d]
+20 Dec 2019, 08:57:48,367 starting org.eclipse.jetty.servlet.ServletHandler@77afea7d
+20 Dec 2019, 08:57:48,375 Chose path=/api mapped to servlet=com.egp.contract.api.server.JettyServer$JeetyServlet-567d299b from default=false
+20 Dec 2019, 08:57:48,376 filterNameMap={com.egp.contract.api.server.CorsFilter-75828a0f=com.egp.contract.api.server.CorsFilter-75828a0f}
+20 Dec 2019, 08:57:48,377 pathFilters=[[/*]/[]==1=>com.egp.contract.api.server.CorsFilter-75828a0f]
+20 Dec 2019, 08:57:48,377 servletFilterMap={}
+20 Dec 2019, 08:57:48,377 servletPathMap={/api=com.egp.contract.api.server.JettyServer$JeetyServlet-567d299b@a77d794a==com.egp.contract.api.server.JettyServer$JeetyServlet,-1,false}
+20 Dec 2019, 08:57:48,377 servletNameMap={com.egp.contract.api.server.JettyServer$JeetyServlet-567d299b=com.egp.contract.api.server.JettyServer$JeetyServlet-567d299b@a77d794a==com.egp.contract.api.server.JettyServer$JeetyServlet,-1,false}
+20 Dec 2019, 08:57:48,377 Adding Default404Servlet to org.eclipse.jetty.servlet.ServletHandler@77afea7d
+20 Dec 2019, 08:57:48,378 org.eclipse.jetty.servlet.ServletHandler@77afea7d added {org.eclipse.jetty.servlet.ServletHandler$Default404Servlet-50675690@2937d7a8==org.eclipse.jetty.servlet.ServletHandler$Default404Servlet,-1,false,AUTO}
+20 Dec 2019, 08:57:48,378 org.eclipse.jetty.servlet.ServletHandler@77afea7d added {[/]=>org.eclipse.jetty.servlet.ServletHandler$Default404Servlet-50675690,POJO}
+20 Dec 2019, 08:57:48,379 Chose path=/api mapped to servlet=com.egp.contract.api.server.JettyServer$JeetyServlet-567d299b from default=false
+20 Dec 2019, 08:57:48,379 Chose path=/ mapped to servlet=org.eclipse.jetty.servlet.ServletHandler$Default404Servlet-50675690 from default=false
+20 Dec 2019, 08:57:48,379 filterNameMap={com.egp.contract.api.server.CorsFilter-75828a0f=com.egp.contract.api.server.CorsFilter-75828a0f}
+20 Dec 2019, 08:57:48,380 pathFilters=[[/*]/[]==1=>com.egp.contract.api.server.CorsFilter-75828a0f]
+20 Dec 2019, 08:57:48,380 servletFilterMap={}
+20 Dec 2019, 08:57:48,380 servletPathMap={/api=com.egp.contract.api.server.JettyServer$JeetyServlet-567d299b@a77d794a==com.egp.contract.api.server.JettyServer$JeetyServlet,-1,false, /=org.eclipse.jetty.servlet.ServletHandler$Default404Servlet-50675690@2937d7a8==org.eclipse.jetty.servlet.ServletHandler$Default404Servlet,-1,false}
+20 Dec 2019, 08:57:48,380 servletNameMap={com.egp.contract.api.server.JettyServer$JeetyServlet-567d299b=com.egp.contract.api.server.JettyServer$JeetyServlet-567d299b@a77d794a==com.egp.contract.api.server.JettyServer$JeetyServlet,-1,false, org.eclipse.jetty.servlet.ServletHandler$Default404Servlet-50675690=org.eclipse.jetty.servlet.ServletHandler$Default404Servlet-50675690@2937d7a8==org.eclipse.jetty.servlet.ServletHandler$Default404Servlet,-1,false}
+20 Dec 2019, 08:57:48,381 starting com.egp.contract.api.server.CorsFilter-75828a0f
+20 Dec 2019, 08:57:48,381 STARTED @548ms com.egp.contract.api.server.CorsFilter-75828a0f
+20 Dec 2019, 08:57:48,383 Filter.init com.egp.contract.api.server.CorsFilter@1bc6a36e
+20 Dec 2019, 08:57:48,383 starting com.egp.contract.api.server.JettyServer$JeetyServlet-567d299b@a77d794a==com.egp.contract.api.server.JettyServer$JeetyServlet,-1,false
+20 Dec 2019, 08:57:48,385 STARTED @552ms com.egp.contract.api.server.JettyServer$JeetyServlet-567d299b@a77d794a==com.egp.contract.api.server.JettyServer$JeetyServlet,-1,false
+20 Dec 2019, 08:57:48,385 starting org.eclipse.jetty.servlet.ServletHandler$Default404Servlet-50675690@2937d7a8==org.eclipse.jetty.servlet.ServletHandler$Default404Servlet,-1,false
+20 Dec 2019, 08:57:48,385 STARTED @552ms org.eclipse.jetty.servlet.ServletHandler$Default404Servlet-50675690@2937d7a8==org.eclipse.jetty.servlet.ServletHandler$Default404Servlet,-1,false
+20 Dec 2019, 08:57:48,385 starting org.eclipse.jetty.servlet.ServletHandler@77afea7d
+20 Dec 2019, 08:57:48,385 STARTED @553ms org.eclipse.jetty.servlet.ServletHandler@77afea7d
+20 Dec 2019, 08:57:48,386 STARTED @553ms org.eclipse.jetty.server.handler.HandlerCollection@6c629d6e[org.eclipse.jetty.servlet.ServletHandler@77afea7d]
+20 Dec 2019, 08:57:48,386 starting ServerConnector@53bd815b{HTTP/1.1}{0.0.0.0:8082}
+20 Dec 2019, 08:57:48,398 ServerConnector@53bd815b{HTTP/1.1}{0.0.0.0:8082} added {sun.nio.ch.ServerSocketChannelImpl[/0:0:0:0:0:0:0:0:8082],POJO}
+20 Dec 2019, 08:57:48,399 starting org.eclipse.jetty.util.thread.ScheduledExecutorScheduler@36aa7bc2
+20 Dec 2019, 08:57:48,400 STARTED @568ms org.eclipse.jetty.util.thread.ScheduledExecutorScheduler@36aa7bc2
+20 Dec 2019, 08:57:48,401 starting HttpConnectionFactory@cac736f{HTTP/1.1}
+20 Dec 2019, 08:57:48,401 STARTED @568ms HttpConnectionFactory@cac736f{HTTP/1.1}
+20 Dec 2019, 08:57:48,401 starting org.eclipse.jetty.server.ServerConnector$ServerConnectorManager@41a4555e
+20 Dec 2019, 08:57:48,405 starting org.eclipse.jetty.io.SelectorManager$ManagedSelector@2cfb4a64 keys=-1 selected=-1
+20 Dec 2019, 08:57:48,881 STARTED @1048ms org.eclipse.jetty.io.SelectorManager$ManagedSelector@2cfb4a64 keys=0 selected=0
+20 Dec 2019, 08:57:48,882 starting org.eclipse.jetty.io.SelectorManager$ManagedSelector@6aaa5eb0 keys=-1 selected=-1
+20 Dec 2019, 08:57:48,884 Starting Thread[qtp580024961-13-selector-ServerConnectorManager@41a4555e/0,5,main] on org.eclipse.jetty.io.SelectorManager$ManagedSelector@2cfb4a64 keys=0 selected=0
+20 Dec 2019, 08:57:48,885 Selector loop waiting on select
+20 Dec 2019, 08:57:48,885 STARTED @1052ms org.eclipse.jetty.io.SelectorManager$ManagedSelector@6aaa5eb0 keys=0 selected=0
+20 Dec 2019, 08:57:48,885 STARTED @1052ms org.eclipse.jetty.server.ServerConnector$ServerConnectorManager@41a4555e
+20 Dec 2019, 08:57:48,886 Starting Thread[qtp580024961-15-selector-ServerConnectorManager@41a4555e/1,5,main] on org.eclipse.jetty.io.SelectorManager$ManagedSelector@6aaa5eb0 keys=0 selected=0
+20 Dec 2019, 08:57:48,886 Selector loop waiting on select
+20 Dec 2019, 08:57:48,886 ServerConnector@53bd815b{HTTP/1.1}{0.0.0.0:8082} added {acceptor-0@3d8c7aca,POJO}
+20 Dec 2019, 08:57:48,886 Started ServerConnector@53bd815b{HTTP/1.1}{0.0.0.0:8082}
+20 Dec 2019, 08:57:48,887 STARTED @1053ms ServerConnector@53bd815b{HTTP/1.1}{0.0.0.0:8082}
+20 Dec 2019, 08:57:48,887 starting ServerConnector@59f95c5d{SSL-http/1.1}{0.0.0.0:8444}
+20 Dec 2019, 08:57:48,887 ServerConnector@59f95c5d{SSL-http/1.1}{0.0.0.0:8444} added {sun.nio.ch.ServerSocketChannelImpl[/0:0:0:0:0:0:0:0:8444],POJO}
+20 Dec 2019, 08:57:48,887 starting org.eclipse.jetty.util.thread.ScheduledExecutorScheduler@48cf768c
+20 Dec 2019, 08:57:48,887 STARTED @1054ms org.eclipse.jetty.util.thread.ScheduledExecutorScheduler@48cf768c
+20 Dec 2019, 08:57:48,888 starting SslConnectionFactory@5fdef03a{SSL-http/1.1}
+20 Dec 2019, 08:57:48,888 starting SslContextFactory@3b22cdd0(config/apiegp.jks,null)
+20 Dec 2019, 08:57:49,706 Enabled Protocols [TLSv1, TLSv1.1, TLSv1.2] of [SSLv2Hello, SSLv3, TLSv1, TLSv1.1, TLSv1.2]
+20 Dec 2019, 08:57:49,712 Enabled Ciphers   [TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA, SSL_RSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDH_ECDSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDH_RSA_WITH_3DES_EDE_CBC_SHA, SSL_DHE_RSA_WITH_3DES_EDE_CBC_SHA, SSL_DHE_DSS_WITH_3DES_EDE_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV] of [TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA, SSL_RSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDH_ECDSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDH_RSA_WITH_3DES_EDE_CBC_SHA, SSL_DHE_RSA_WITH_3DES_EDE_CBC_SHA, SSL_DHE_DSS_WITH_3DES_EDE_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV, TLS_DH_anon_WITH_AES_128_GCM_SHA256, TLS_DH_anon_WITH_AES_128_CBC_SHA256, TLS_ECDH_anon_WITH_AES_128_CBC_SHA, TLS_DH_anon_WITH_AES_128_CBC_SHA, TLS_ECDH_anon_WITH_3DES_EDE_CBC_SHA, SSL_DH_anon_WITH_3DES_EDE_CBC_SHA, SSL_RSA_WITH_DES_CBC_SHA, SSL_DHE_RSA_WITH_DES_CBC_SHA, SSL_DHE_DSS_WITH_DES_CBC_SHA, SSL_DH_anon_WITH_DES_CBC_SHA, SSL_RSA_EXPORT_WITH_DES40_CBC_SHA, SSL_DHE_RSA_EXPORT_WITH_DES40_CBC_SHA, SSL_DHE_DSS_EXPORT_WITH_DES40_CBC_SHA, SSL_DH_anon_EXPORT_WITH_DES40_CBC_SHA, TLS_RSA_WITH_NULL_SHA256, TLS_ECDHE_ECDSA_WITH_NULL_SHA, TLS_ECDHE_RSA_WITH_NULL_SHA, SSL_RSA_WITH_NULL_SHA, TLS_ECDH_ECDSA_WITH_NULL_SHA, TLS_ECDH_RSA_WITH_NULL_SHA, TLS_ECDH_anon_WITH_NULL_SHA, SSL_RSA_WITH_NULL_MD5, TLS_KRB5_WITH_3DES_EDE_CBC_SHA, TLS_KRB5_WITH_3DES_EDE_CBC_MD5, TLS_KRB5_WITH_DES_CBC_SHA, TLS_KRB5_WITH_DES_CBC_MD5, TLS_KRB5_EXPORT_WITH_DES_CBC_40_SHA, TLS_KRB5_EXPORT_WITH_DES_CBC_40_MD5]
+20 Dec 2019, 08:57:49,713 STARTED @1879ms SslContextFactory@3b22cdd0(config/apiegp.jks,config/apiegp.jks)
+20 Dec 2019, 08:57:49,732 STARTED @1899ms SslConnectionFactory@5fdef03a{SSL-http/1.1}
+20 Dec 2019, 08:57:49,733 starting HttpConnectionFactory@1e81f4dc{HTTP/1.1}
+20 Dec 2019, 08:57:49,733 STARTED @1899ms HttpConnectionFactory@1e81f4dc{HTTP/1.1}
+20 Dec 2019, 08:57:49,733 starting org.eclipse.jetty.server.ServerConnector$ServerConnectorManager@4aa8f0b4
+20 Dec 2019, 08:57:49,745 starting org.eclipse.jetty.io.SelectorManager$ManagedSelector@491cc5c9 keys=-1 selected=-1
+20 Dec 2019, 08:57:49,747 STARTED @1913ms org.eclipse.jetty.io.SelectorManager$ManagedSelector@491cc5c9 keys=0 selected=0
+20 Dec 2019, 08:57:49,747 starting org.eclipse.jetty.io.SelectorManager$ManagedSelector@74ad1f1f keys=-1 selected=-1
+20 Dec 2019, 08:57:49,747 Starting Thread[qtp580024961-14-selector-ServerConnectorManager@4aa8f0b4/0,5,main] on org.eclipse.jetty.io.SelectorManager$ManagedSelector@491cc5c9 keys=0 selected=0
+20 Dec 2019, 08:57:49,747 Selector loop waiting on select
+20 Dec 2019, 08:57:49,749 STARTED @1915ms org.eclipse.jetty.io.SelectorManager$ManagedSelector@74ad1f1f keys=0 selected=0
+20 Dec 2019, 08:57:49,749 STARTED @1915ms org.eclipse.jetty.server.ServerConnector$ServerConnectorManager@4aa8f0b4
+20 Dec 2019, 08:57:49,749 Starting Thread[qtp580024961-11-selector-ServerConnectorManager@4aa8f0b4/1,5,main] on org.eclipse.jetty.io.SelectorManager$ManagedSelector@74ad1f1f keys=0 selected=0
+20 Dec 2019, 08:57:49,749 ServerConnector@59f95c5d{SSL-http/1.1}{0.0.0.0:8444} added {acceptor-0@6a1aab78,POJO}
+20 Dec 2019, 08:57:49,749 Selector loop waiting on select
+20 Dec 2019, 08:57:49,749 Started ServerConnector@59f95c5d{SSL-http/1.1}{0.0.0.0:8444}
+20 Dec 2019, 08:57:49,749 STARTED @1916ms ServerConnector@59f95c5d{SSL-http/1.1}{0.0.0.0:8444}
+20 Dec 2019, 08:57:49,749 Started @1916ms
+20 Dec 2019, 08:57:49,750 STARTED @1916ms org.eclipse.jetty.server.Server@2530c12
+20 Dec 2019, 08:57:49,750 BIDDING API SERVER Started ...!!!
+20 Dec 2019, 08:58:59,436 Queued change org.eclipse.jetty.io.SelectorManager$ManagedSelector$Accept@46b936b8
+20 Dec 2019, 08:58:59,436 Selector loop woken up from select, 0/0 selected
+20 Dec 2019, 08:58:59,437 Running change org.eclipse.jetty.io.SelectorManager$ManagedSelector$Accept@46b936b8
+20 Dec 2019, 08:58:59,448 onOpen SelectChannelEndPoint@37be6d76{/127.0.0.1:62313<->8082,Open,in,out,-,-,6/30000,null}{io=0,kio=0,kro=0}
+20 Dec 2019, 08:58:59,448 SelectChannelEndPoint@37be6d76{/127.0.0.1:62313<->8082,Open,in,out,-,-,7/30000,null}{io=0,kio=0,kro=0} idle timeout check, elapsed: 7 ms, remaining: 29993 ms
+20 Dec 2019, 08:58:59,482 new HttpChannelOverHttp@b17e558{r=0,c=false,a=IDLE,uri=-} -> SelectChannelEndPoint@37be6d76{/127.0.0.1:62313<->8082,Open,in,out,-,-,41/30000,null}{io=0,kio=0,kro=0},null,HttpChannelState@7d4ec642{s=IDLE i=true a=null}
+20 Dec 2019, 08:58:59,486 New HTTP Connection HttpConnection@145a16f{IDLE}
+20 Dec 2019, 08:58:59,487 onOpen HttpConnection@145a16f{IDLE}
+20 Dec 2019, 08:58:59,487 fillInterested HttpConnection@145a16f{IDLE}
+20 Dec 2019, 08:58:59,487 IDLE-->FILL_INTERESTED HttpConnection@145a16f{FILL_INTERESTED}
+20 Dec 2019, 08:58:59,487 Local interests updating 0 -> 1 for SelectChannelEndPoint@37be6d76{/127.0.0.1:62313<->8082,Open,in,out,R,-,0/30000,HttpConnection}{io=1,kio=0,kro=0}
+20 Dec 2019, 08:58:59,488 Running change org.eclipse.jetty.io.SelectChannelEndPoint$1@7194e745
+20 Dec 2019, 08:58:59,488 Key interests updated 0 -> 1 on SelectChannelEndPoint@37be6d76{/127.0.0.1:62313<->8082,Open,in,out,R,-,1/30000,HttpConnection}{io=1,kio=1,kro=0}
+20 Dec 2019, 08:58:59,488 Created SelectChannelEndPoint@37be6d76{/127.0.0.1:62313<->8082,Open,in,out,R,-,1/30000,HttpConnection}{io=1,kio=1,kro=0}
+20 Dec 2019, 08:58:59,488 Selector loop waiting on select
+20 Dec 2019, 08:58:59,488 Selector loop woken up from select, 1/1 selected
+20 Dec 2019, 08:58:59,489 Key interests updated 1 -> 0 on SelectChannelEndPoint@37be6d76{/127.0.0.1:62313<->8082,Open,in,out,R,-,2/30000,HttpConnection}{io=1,kio=0,kro=1}
+20 Dec 2019, 08:58:59,489 Local interests updating 1 -> 0 for SelectChannelEndPoint@37be6d76{/127.0.0.1:62313<->8082,Open,in,out,R,-,2/30000,HttpConnection}{io=0,kio=0,kro=1}
+20 Dec 2019, 08:58:59,489 Running change org.eclipse.jetty.io.SelectChannelEndPoint$1@7194e745
+20 Dec 2019, 08:58:59,489 FILL_INTERESTED-->FILLING HttpConnection@145a16f{FILLING}
+20 Dec 2019, 08:58:59,489 Selector loop waiting on select
+20 Dec 2019, 08:58:59,489 HttpConnection@145a16f{FILLING} onFillable HttpChannelState@7d4ec642{s=IDLE i=true a=null}
+20 Dec 2019, 08:58:59,490 filled 158 SelectChannelEndPoint@37be6d76{/127.0.0.1:62313<->8082,Open,in,out,-,-,3/30000,HttpConnection}{io=0,kio=0,kro=1}
+20 Dec 2019, 08:58:59,490 parseNext s=START HeapByteBuffer@632f4022[p=0,l=158,c=16384,r=158]={<<<GET /api?c=1 HTTP... keep-alive\r\n\r\n>>>\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00...\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00}
+20 Dec 2019, 08:58:59,491 START --> SPACE1
+20 Dec 2019, 08:58:59,492 SPACE1 --> URI
+20 Dec 2019, 08:58:59,492 URI --> SPACE2
+20 Dec 2019, 08:58:59,492 SPACE2 --> REQUEST_VERSION
+20 Dec 2019, 08:58:59,492 REQUEST_VERSION --> HEADER
+20 Dec 2019, 08:58:59,492 HEADER --> HEADER_VALUE
+20 Dec 2019, 08:58:59,492 HEADER_VALUE --> HEADER_IN_VALUE
+20 Dec 2019, 08:58:59,492 HEADER_IN_VALUE --> HEADER
+20 Dec 2019, 08:58:59,493 HEADER --> HEADER_VALUE
+20 Dec 2019, 08:58:59,493 HEADER_VALUE --> HEADER_IN_VALUE
+20 Dec 2019, 08:58:59,493 HEADER_IN_VALUE --> HEADER
+20 Dec 2019, 08:58:59,493 HEADER --> HEADER_VALUE
+20 Dec 2019, 08:58:59,494 HEADER_VALUE --> HEADER_IN_VALUE
+20 Dec 2019, 08:58:59,494 HEADER_IN_VALUE --> HEADER
+20 Dec 2019, 08:58:59,494 HEADER --> HEADER_IN_VALUE
+20 Dec 2019, 08:58:59,494 HEADER_IN_VALUE --> HEADER
+20 Dec 2019, 08:58:59,495 HEADER --> END
+20 Dec 2019, 08:58:59,495 HttpChannelOverHttp@b17e558{r=1,c=false,a=IDLE,uri=-} messageComplete
+20 Dec 2019, 08:58:59,496 HttpInputOverHTTP@680c0551 EOF
+20 Dec 2019, 08:58:59,496 HttpChannelOverHttp@b17e558{r=1,c=false,a=IDLE,uri=-} handle enter
+20 Dec 2019, 08:58:59,496 HttpChannelState@7d4ec642{s=IDLE i=true a=null} handling IDLE
+20 Dec 2019, 08:58:59,498 HttpChannelOverHttp@b17e558{r=1,c=false,a=DISPATCHED,uri=/api} action REQUEST_DISPATCH
+20 Dec 2019, 08:58:59,498 REQUEST GET /api on HttpChannelOverHttp@b17e558{r=1,c=false,a=DISPATCHED,uri=/api}
+20 Dec 2019, 08:58:59,498 servlet null|/api|null -> com.egp.contract.api.server.JettyServer$JeetyServlet-567d299b@a77d794a==com.egp.contract.api.server.JettyServer$JeetyServlet,-1,false
+20 Dec 2019, 08:58:59,499 chain=com.egp.contract.api.server.CorsFilter-75828a0f->com.egp.contract.api.server.JettyServer$JeetyServlet-567d299b@a77d794a==com.egp.contract.api.server.JettyServer$JeetyServlet,-1,false
+20 Dec 2019, 08:58:59,506 Servlet.init com.egp.contract.api.server.JettyServer$JeetyServlet@7c012651 for com.egp.contract.api.server.JettyServer$JeetyServlet-567d299b
+20 Dec 2019, 08:58:59,506 call filter com.egp.contract.api.server.CorsFilter-75828a0f
+20 Dec 2019, 08:58:59,506 call servlet com.egp.contract.api.server.JettyServer$JeetyServlet-567d299b@a77d794a==com.egp.contract.api.server.JettyServer$JeetyServlet,-1,true
+20 Dec 2019, 08:58:59,515 IP:127.0.0.1
+20 Dec 2019, 08:58:59,516 command: 1
+20 Dec 2019, 08:58:59,517 ContracsAllProcessor - userAgent: Mozilla/5.0
+20 Dec 2019, 08:58:59,557 mysqlpoolname: Registered JDBC driver com.mysql.jdbc.Driver
+20 Dec 2019, 08:58:59,562 mysqlpoolname: Parameters changed (minpool=5,maxpool=30,maxsize=40,idleTimeout=900,cleanInterval=5000)
+20 Dec 2019, 08:58:59,563 mysqlpoolname: Created pool mysqlpoolname (minpool=5,maxpool=30,maxsize=40,idleTimeout=900)
+20 Dec 2019, 08:58:59,564 mysqlpoolname: Getting connection (user/password): jdbc:mysql://localhost:13306/egp?useUnicode=yes&characterEncoding=UTF-8
+20 Dec 2019, 08:58:59,706 mysqlpoolname: Created a new connection
+20 Dec 2019, 08:58:59,707 mysqlpoolname: Checkout - 1/1 (HitRate=0.0%)
+20 Dec 2019, 08:58:59,707 mysqlpoolname: Getting connection (user/password): jdbc:mysql://localhost:13306/egp?useUnicode=yes&characterEncoding=UTF-8
+20 Dec 2019, 08:58:59,728 mysqlpoolname: PreparedStatement cache miss [SELECT name FROM contracs,TYPE_FORWARD_ONLY,CONCUR_READ_ONLY,HOLD_CURSORS_OVER_COMMIT] - PS-HitRate=0.0%
+20 Dec 2019, 08:58:59,768 mysqlpoolname: Created a new connection
+20 Dec 2019, 08:58:59,770 mysqlpoolname: Initialized new item in pool
+20 Dec 2019, 08:58:59,770 mysqlpoolname: Getting connection (user/password): jdbc:mysql://localhost:13306/egp?useUnicode=yes&characterEncoding=UTF-8
+20 Dec 2019, 08:58:59,841 mysqlpoolname: Created a new connection
+20 Dec 2019, 08:58:59,841 mysqlpoolname: Initialized new item in pool
+20 Dec 2019, 08:58:59,841 mysqlpoolname: Getting connection (user/password): jdbc:mysql://localhost:13306/egp?useUnicode=yes&characterEncoding=UTF-8
+20 Dec 2019, 08:58:59,910 mysqlpoolname: Created a new connection
+20 Dec 2019, 08:58:59,910 mysqlpoolname: Initialized new item in pool
+20 Dec 2019, 08:58:59,910 mysqlpoolname: Getting connection (user/password): jdbc:mysql://localhost:13306/egp?useUnicode=yes&characterEncoding=UTF-8
+20 Dec 2019, 08:58:59,999 mysqlpoolname: Created a new connection
+20 Dec 2019, 08:59:00,000 mysqlpoolname: Initialized new item in pool
+20 Dec 2019, 08:59:00,000 mysqlpoolname: Getting connection (user/password): jdbc:mysql://localhost:13306/egp?useUnicode=yes&characterEncoding=UTF-8
+20 Dec 2019, 08:59:00,074 mysqlpoolname: Created a new connection
+20 Dec 2019, 08:59:00,074 mysqlpoolname: Initialized new item in pool
+20 Dec 2019, 08:59:00,075 mysqlpoolname: Initialized pool with 5 new items
+20 Dec 2019, 08:59:00,075 mysqlpoolname: Checkin  - 0/6
+20 Dec 2019, 08:59:00,235 Response ContractAllResponse: {"success":true,"errorCode":"0","datas":["Thông báo nộp hợp đồng đấu thầu dự án Cao tốc bắc nam, trước ngày 31/12/2019","Thông báo nộp HS thầu dự án đường sắt trên cao"]}
+20 Dec 2019, 08:59:00,238 1
+20 Dec 2019, 08:59:00,238 RESPONSE /api  200 handled=true
+20 Dec 2019, 08:59:00,238 HttpChannelState@7d4ec642{s=DISPATCHED i=true a=null} unhandle DISPATCHED
+20 Dec 2019, 08:59:00,240 org.eclipse.jetty.server.HttpConnection$SendCallback@5657272e[PROCESSING][i=ResponseInfo{HTTP/1.1 200 null,-1,false},cb=org.eclipse.jetty.server.HttpChannel$CommitCallback@f1f168] generate: NEED_HEADER (null,[p=0,l=213,c=32768,r=213],true)@START
+20 Dec 2019, 08:59:00,240 org.eclipse.jetty.server.HttpConnection$SendCallback@5657272e[PROCESSING][i=ResponseInfo{HTTP/1.1 200 null,-1,false},cb=org.eclipse.jetty.server.HttpChannel$CommitCallback@f1f168] generate: FLUSH ([p=0,l=419,c=8192,r=419],[p=0,l=213,c=32768,r=213],true)@COMPLETING
+20 Dec 2019, 08:59:00,241 write: WriteFlusher@cda471a{IDLE} [HeapByteBuffer@471c617f[p=0,l=419,c=8192,r=419]={<<<HTTP/1.1 200 OK\r\n....v20150310)\r\n\r\n>>>\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00...\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00},HeapByteBuffer@48e9b245[p=0,l=213,c=32768,r=213]={<<<{"success":true,"... tr\xC3\xAan cao"]}\r\n>>>\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00...\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00}]
+20 Dec 2019, 08:59:00,241 update WriteFlusher@cda471a{WRITING}:IDLE-->WRITING
+20 Dec 2019, 08:59:00,241 flushed 632 SelectChannelEndPoint@37be6d76{/127.0.0.1:62313<->8082,Open,in,out,-,W,751/30000,HttpConnection}{io=0,kio=0,kro=1}
+20 Dec 2019, 08:59:00,242 update WriteFlusher@cda471a{IDLE}:WRITING-->IDLE
+20 Dec 2019, 08:59:00,242 org.eclipse.jetty.server.HttpConnection$SendCallback@5657272e[PROCESSING][i=ResponseInfo{HTTP/1.1 200 null,-1,false},cb=org.eclipse.jetty.server.HttpChannel$CommitCallback@f1f168] generate: DONE ([p=419,l=419,c=8192,r=0],[p=213,l=213,c=32768,r=0],true)@END
+20 Dec 2019, 08:59:00,245 reset HttpParser{s=END,0 of 0}
+20 Dec 2019, 08:59:00,245 END --> START
+20 Dec 2019, 08:59:00,245 HttpChannelOverHttp@b17e558{r=1,c=false,a=IDLE,uri=-} handle exit, result COMPLETE
+20 Dec 2019, 08:59:00,246 filled 0 SelectChannelEndPoint@37be6d76{/127.0.0.1:62313<->8082,Open,in,out,-,-,3/30000,HttpConnection}{io=0,kio=0,kro=1}
+20 Dec 2019, 08:59:00,246 filled 0 SelectChannelEndPoint@37be6d76{/127.0.0.1:62313<->8082,Open,in,out,-,-,4/30000,HttpConnection}{io=0,kio=0,kro=1}
+20 Dec 2019, 08:59:00,246 parseNext s=START HeapByteBuffer@632f4022[p=0,l=0,c=16384,r=0]={<<<>>>GET /api?c=1 HTTP...\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00}
+20 Dec 2019, 08:59:00,247 fillInterested HttpConnection@145a16f{FILLING}
+20 Dec 2019, 08:59:00,247 FILLING-->FILLING_FILL_INTERESTED HttpConnection@145a16f{FILLING_FILL_INTERESTED}
+20 Dec 2019, 08:59:00,247 FILLING_FILL_INTERESTED-->FILL_INTERESTED HttpConnection@145a16f{FILL_INTERESTED}
+20 Dec 2019, 08:59:00,247 Local interests updating 0 -> 1 for SelectChannelEndPoint@37be6d76{/127.0.0.1:62313<->8082,Open,in,out,R,-,0/30000,HttpConnection}{io=1,kio=0,kro=1}
+20 Dec 2019, 08:59:00,248 Running change org.eclipse.jetty.io.SelectChannelEndPoint$1@7194e745
+20 Dec 2019, 08:59:00,248 Key interests updated 0 -> 1 on SelectChannelEndPoint@37be6d76{/127.0.0.1:62313<->8082,Open,in,out,R,-,1/30000,HttpConnection}{io=1,kio=1,kro=1}
+20 Dec 2019, 08:59:00,248 Selector loop woken up from select, 0/1 selected
+20 Dec 2019, 08:59:00,248 Selector loop waiting on select
+20 Dec 2019, 08:59:06,933 Selector loop woken up from select, 1/1 selected
+20 Dec 2019, 08:59:06,934 Key interests updated 1 -> 0 on SelectChannelEndPoint@37be6d76{/127.0.0.1:62313<->8082,Open,in,out,R,-,6687/30000,HttpConnection}{io=1,kio=0,kro=1}
+20 Dec 2019, 08:59:06,935 Local interests updating 1 -> 0 for SelectChannelEndPoint@37be6d76{/127.0.0.1:62313<->8082,Open,in,out,R,-,6687/30000,HttpConnection}{io=0,kio=0,kro=1}
+20 Dec 2019, 08:59:06,935 Running change org.eclipse.jetty.io.SelectChannelEndPoint$1@7194e745
+20 Dec 2019, 08:59:06,935 FILL_INTERESTED-->FILLING HttpConnection@145a16f{FILLING}
+20 Dec 2019, 08:59:06,936 Selector loop waiting on select
+20 Dec 2019, 08:59:06,936 HttpConnection@145a16f{FILLING} onFillable HttpChannelState@7d4ec642{s=IDLE i=true a=null}
+20 Dec 2019, 08:59:06,937 filled -1 SelectChannelEndPoint@37be6d76{/127.0.0.1:62313<->8082,Open,in,out,-,-,6690/30000,HttpConnection}{io=0,kio=0,kro=1}
+20 Dec 2019, 08:59:06,939 ishut SelectChannelEndPoint@37be6d76{/127.0.0.1:62313<->8082,Open,in,out,-,-,6691/30000,HttpConnection}{io=0,kio=0,kro=1}
+20 Dec 2019, 08:59:06,940 atEOF HttpParser{s=START,0 of -1}
+20 Dec 2019, 08:59:06,941 parseNext s=START HeapByteBuffer@632f4022[p=0,l=0,c=16384,r=0]={<<<>>>GET /api?c=1 HTTP...\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00}
+20 Dec 2019, 08:59:06,941 START --> CLOSED
+20 Dec 2019, 08:59:06,942 onClose SelectChannelEndPoint@37be6d76{/127.0.0.1:62313<->8082,CLOSED,ISHUT,out,-,-,6695/30000,HttpConnection}{io=0,kio=0,kro=1}
+20 Dec 2019, 08:59:06,943 close SelectChannelEndPoint@37be6d76{/127.0.0.1:62313<->8082,CLOSED,ISHUT,out,-,-,6696/30000,HttpConnection}{io=0,kio=0,kro=1}
+20 Dec 2019, 08:59:06,945 Destroyed SelectChannelEndPoint@37be6d76{/127.0.0.1:62313<->8082,CLOSED,ISHUT,OSHUT,-,-,6698/30000,HttpConnection}{io=0,kio=-1,kro=-1}
+20 Dec 2019, 08:59:06,945 onClose HttpConnection@145a16f{FILLING}
+20 Dec 2019, 08:59:06,946 onClose SelectChannelEndPoint@37be6d76{/127.0.0.1:62313<->8082,CLOSED,ISHUT,OSHUT,-,-,6699/30000,HttpConnection}{io=0,kio=-1,kro=-1}
+20 Dec 2019, 08:59:06,946 FILLING-->IDLE HttpConnection@145a16f{IDLE}
+20 Dec 2019, 09:14:00,178 mysqlpoolname: Destroyed connection
+20 Dec 2019, 09:14:00,179 mysqlpoolname: Destroyed connection
+20 Dec 2019, 09:14:00,180 mysqlpoolname: Destroyed connection
+20 Dec 2019, 09:14:00,181 mysqlpoolname: Destroyed connection
+20 Dec 2019, 09:14:00,181 mysqlpoolname: Destroyed connection
+20 Dec 2019, 09:14:00,181 mysqlpoolname: Closing 1 cached PreparedStatement
+20 Dec 2019, 09:14:00,187 mysqlpoolname: Can't destroy connection
+com.mysql.jdbc.CommunicationsException: Communications link failure due to underlying exception: 
+
+** BEGIN NESTED EXCEPTION ** 
+
+java.net.SocketException
+MESSAGE: Software caused connection abort: socket write error
+
+STACKTRACE:
+
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:153)
+	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+	at com.mysql.jdbc.MysqlIO.send(MysqlIO.java:2637)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1554)
+	at com.mysql.jdbc.ServerPreparedStatement.realClose(ServerPreparedStatement.java:908)
+	at com.mysql.jdbc.ServerPreparedStatement.close(ServerPreparedStatement.java:476)
+	at snaq.db.CachedPreparedStatement.release(CachedPreparedStatement.java:130)
+	at snaq.db.CacheConnection.flushSparePreparedStatements(CacheConnection.java:1012)
+	at snaq.db.CacheConnection.release(CacheConnection.java:1126)
+	at snaq.db.ConnectionPool.destroy(ConnectionPool.java:367)
+	at snaq.db.ConnectionPool.destroy(ConnectionPool.java:71)
+	at snaq.util.ObjectPool.destroyObject(ObjectPool.java:748)
+	at snaq.util.ObjectPool.purge(ObjectPool.java:1209)
+	at snaq.util.ObjectPool$Cleaner.run(ObjectPool.java:1445)
+
+
+** END NESTED EXCEPTION **
+
+
+
+Last packet sent to the server was 2 ms ago.
+	at com.mysql.jdbc.MysqlIO.send(MysqlIO.java:2652)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1554)
+	at com.mysql.jdbc.ServerPreparedStatement.realClose(ServerPreparedStatement.java:908)
+	at com.mysql.jdbc.ServerPreparedStatement.close(ServerPreparedStatement.java:476)
+	at snaq.db.CachedPreparedStatement.release(CachedPreparedStatement.java:130)
+	at snaq.db.CacheConnection.flushSparePreparedStatements(CacheConnection.java:1012)
+	at snaq.db.CacheConnection.release(CacheConnection.java:1126)
+	at snaq.db.ConnectionPool.destroy(ConnectionPool.java:367)
+	at snaq.db.ConnectionPool.destroy(ConnectionPool.java:71)
+	at snaq.util.ObjectPool.destroyObject(ObjectPool.java:748)
+	at snaq.util.ObjectPool.purge(ObjectPool.java:1209)
+	at snaq.util.ObjectPool$Cleaner.run(ObjectPool.java:1445)
