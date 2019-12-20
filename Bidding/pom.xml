@@ -48,17 +48,73 @@
 	</dependencies>
 
 	<build>
-		<plugins>
-			<plugin>
-				<!-- 
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-maven-plugin</artifactId>
-				 -->
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-jar-plugin</artifactId>
-				<version>3.1.1</version>
-			</plugin>
-		</plugins>
+		<plugin>
+        <groupId>io.fabric8</groupId>
+        <artifactId>fabric8-maven-plugin</artifactId>
+        <version>3.2.28</version>
+        <configuration>
+            <images>
+    <image>
+        <name>172.30.182.75:5000/deploy-project/msa-product</name>
+      <alias>product-svc</alias>
+      <build>
+        <dockerFileDir>/home/czhu/dockerBuild/product/</dockerFileDir>
+      </build>
+</image>
+</images>
+            <enricher>
+    <config>
+          <fmp-controller>
+            <name>product-service</name>
+          </fmp-controller>
+    </config>
+</enricher>
+            <env>
+  <MYSQL_USER>product</MYSQL_USER>
+  <MYSQL_PASSWORD>password</MYSQL_PASSWORD>
+</env>
+        </configuration>
+        <executions>
+            <execution>
+                <id>fmp</id>
+                <goals>
+                    <goal>resource</goal>
+                    <goal>build</goal>
+                    <goal>push</goal>
+                </goals>
+          </execution>
+        </executions>
+</plugin>
+<plugin>
+    <artifactId>maven-resources-plugin</artifactId>
+    <version>3.0.2</version>
+    <executions>
+      <execution>
+        <id>copy-resources</id>
+        <phase>package</phase>
+        <goals>
+          <goal>copy-resources</goal>
+        </goals>
+        <configuration>
+          <outputDirectory>/home/czhu/dockerBuild/product/</outputDirectory>
+          <resources>
+            <resource>
+              <directory>/home/czhu/MSA-EAP7-OSE/Product/target</directory>
+                <includes>
+                    <include>product.war</include>
+                </includes>
+            </resource>
+            <resource>
+              <directory>/home/czhu/MSA-EAP7-OSE/Product/configuration</directory>
+                <includes>
+                    <include>standalone-openshift.xml</include>
+                </includes>
+            </resource>
+          </resources>
+        </configuration>
+      </execution>
+    </executions>
+</plugin>
 	</build>
 
 </project>
