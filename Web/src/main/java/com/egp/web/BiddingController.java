@@ -15,7 +15,8 @@ public class BiddingController {
 		String biddings= name;	
 		
 		// Call bidding micro service to biddings
-		String biddingUrl = "http://localhost:8081/api?c=1";
+		//String biddingUrl = "http://localhost:8081/api?c=1";
+		String biddingUrl = "http://egp-bidding-egp-test1.paas.xplat.fpt.com.vn/api?c=1";		
 		try {
 			biddings = HttpUtils.sendGet(biddingUrl);
 		} catch (Exception e) {			

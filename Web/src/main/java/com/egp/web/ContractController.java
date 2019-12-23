@@ -15,7 +15,8 @@ public class ContractController {
 		String contract = name;
 
 		// Call contract micro service to contract
-		String contractUrl = "http://localhost:8082/api?c=1";
+		//String contractUrl = "http://localhost:8082/api?c=1";
+		String contractUrl = "http://egp-contract-egp-test1.paas.xplat.fpt.com.vn/api?c=1";
 		try {
 			contract = HttpUtils.sendGet(contractUrl);
 		} catch (Exception e) {
