@@ -1,5 +1,4 @@
-FROM java:8-jdk-alpine
-COPY ./build/libs/nasapicture-0.0.1-SNAPSHOT.war /usr/app/
-WORKDIR /usr/app
-EXPOSE 8080
-ENTRYPOINT ["java", "-jar", "nasapicture-0.0.1-SNAPSHOT.war"]
+FROM openjdk:8-jdk-alpine
+VOLUME /tmp
+ADD target/Biding.jar biding.jar
+ENTRYPOINT exec java -jar biding.jar
