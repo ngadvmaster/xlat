@@ -1,0 +1,112 @@
+23 Dec 2019, 16:47:03,741 Logging initialized.
+23 Dec 2019, 16:47:03,742 STARTING BIDDING API SERVER .... !!!!
+23 Dec 2019, 16:47:03,773 1 <-> com.egp.bidding.api.processors.BiddingAllProcessor
+23 Dec 2019, 16:47:03,773 2 <-> com.egp.bidding.api.processors.BiddingProcessor
+23 Dec 2019, 16:47:03,796 Logging to org.slf4j.impl.Log4jLoggerAdapter(org.eclipse.jetty.util.log) via org.eclipse.jetty.util.log.Slf4jLog
+23 Dec 2019, 16:47:03,884 Logging initialized @576ms
+23 Dec 2019, 16:47:03,913 org.eclipse.jetty.server.Server@5b37e0d2 added {qtp1469821799{STOPPED,8<=0<=200,i=0,q=0},AUTO}
+23 Dec 2019, 16:47:03,926 HttpConnectionFactory@2957fcb0{HTTP/1.1} added {HttpConfiguration@1376c05c{32768/8192,8192/8192,https://:0,[]},POJO}
+23 Dec 2019, 16:47:03,928 ServerConnector@6aa8ceb6{null}{0.0.0.0:0} added {org.eclipse.jetty.server.Server@5b37e0d2,UNMANAGED}
+23 Dec 2019, 16:47:03,928 ServerConnector@6aa8ceb6{null}{0.0.0.0:0} added {qtp1469821799{STOPPED,8<=0<=200,i=0,q=0},AUTO}
+23 Dec 2019, 16:47:03,929 ServerConnector@6aa8ceb6{null}{0.0.0.0:0} added {org.eclipse.jetty.util.thread.ScheduledExecutorScheduler@694f9431,AUTO}
+23 Dec 2019, 16:47:03,929 ServerConnector@6aa8ceb6{null}{0.0.0.0:0} added {org.eclipse.jetty.io.ArrayByteBufferPool@2530c12,POJO}
+23 Dec 2019, 16:47:03,929 ServerConnector@6aa8ceb6{null}{0.0.0.0:0} added {HttpConnectionFactory@2957fcb0{HTTP/1.1},AUTO}
+23 Dec 2019, 16:47:03,931 ServerConnector@6aa8ceb6{HTTP/1.1}{0.0.0.0:0} added {org.eclipse.jetty.server.ServerConnector$ServerConnectorManager@3b95a09c,MANAGED}
+23 Dec 2019, 16:47:03,936 SslConnectionFactory@6bf2d08e{SSL-http/1.1} added {SslContextFactory@5eb5c224(config/apiegp.jks,null),AUTO}
+23 Dec 2019, 16:47:03,937 HttpConnectionFactory@53e25b76{HTTP/1.1} added {HttpConfiguration@73a8dfcc{32768/8192,8192/8192,https://:0,[SecureRequestCustomizer@ea30797]},POJO}
+23 Dec 2019, 16:47:03,937 ServerConnector@3f8f9dd6{null}{0.0.0.0:0} added {org.eclipse.jetty.server.Server@5b37e0d2,UNMANAGED}
+23 Dec 2019, 16:47:03,938 ServerConnector@3f8f9dd6{null}{0.0.0.0:0} added {qtp1469821799{STOPPED,8<=0<=200,i=0,q=0},AUTO}
+23 Dec 2019, 16:47:03,938 ServerConnector@3f8f9dd6{null}{0.0.0.0:0} added {org.eclipse.jetty.util.thread.ScheduledExecutorScheduler@7e774085,AUTO}
+23 Dec 2019, 16:47:03,938 ServerConnector@3f8f9dd6{null}{0.0.0.0:0} added {org.eclipse.jetty.io.ArrayByteBufferPool@aec6354,POJO}
+23 Dec 2019, 16:47:03,938 ServerConnector@3f8f9dd6{null}{0.0.0.0:0} added {SslConnectionFactory@6bf2d08e{SSL-http/1.1},AUTO}
+23 Dec 2019, 16:47:03,939 ServerConnector@3f8f9dd6{SSL-http/1.1}{0.0.0.0:0} added {HttpConnectionFactory@53e25b76{HTTP/1.1},AUTO}
+23 Dec 2019, 16:47:03,939 ServerConnector@3f8f9dd6{SSL-http/1.1}{0.0.0.0:0} added {org.eclipse.jetty.server.ServerConnector$ServerConnectorManager@1c655221,MANAGED}
+23 Dec 2019, 16:47:03,954 org.eclipse.jetty.servlet.ServletHandler@69222c14 added {com.egp.bidding.api.server.CorsFilter-5aaa6d82,AUTO}
+23 Dec 2019, 16:47:03,956 org.eclipse.jetty.servlet.ServletHandler@69222c14 added {[/*]/[]==1=>com.egp.bidding.api.server.CorsFilter-5aaa6d82,POJO}
+23 Dec 2019, 16:47:03,959 org.eclipse.jetty.servlet.ServletHandler@69222c14 added {com.egp.bidding.api.server.JettyServer$JeetyServlet-2f333739@6801e29b==com.egp.bidding.api.server.JettyServer$JeetyServlet,-1,false,AUTO}
+23 Dec 2019, 16:47:03,960 org.eclipse.jetty.servlet.ServletHandler@69222c14 added {[/api]=>com.egp.bidding.api.server.JettyServer$JeetyServlet-2f333739,POJO}
+23 Dec 2019, 16:47:03,961 org.eclipse.jetty.server.handler.HandlerCollection@6ed3ef1[org.eclipse.jetty.servlet.ServletHandler@69222c14] added {org.eclipse.jetty.servlet.ServletHandler@69222c14,AUTO}
+23 Dec 2019, 16:47:03,961 org.eclipse.jetty.server.Server@5b37e0d2 added {org.eclipse.jetty.server.handler.HandlerCollection@6ed3ef1[org.eclipse.jetty.servlet.ServletHandler@69222c14],AUTO}
+23 Dec 2019, 16:47:03,962 org.eclipse.jetty.server.Server@5b37e0d2 added {ServerConnector@6aa8ceb6{HTTP/1.1}{0.0.0.0:8081},AUTO}
+23 Dec 2019, 16:47:03,962 org.eclipse.jetty.server.Server@5b37e0d2 added {ServerConnector@3f8f9dd6{SSL-http/1.1}{0.0.0.0:8443},AUTO}
+23 Dec 2019, 16:47:03,962 starting org.eclipse.jetty.server.Server@5b37e0d2
+23 Dec 2019, 16:47:03,965 jetty-9.2.z-SNAPSHOT
+23 Dec 2019, 16:47:03,976 starting org.eclipse.jetty.server.Server@5b37e0d2
+23 Dec 2019, 16:47:03,977 starting qtp1469821799{STOPPED,8<=0<=200,i=0,q=0}
+23 Dec 2019, 16:47:03,986 STARTED @680ms qtp1469821799{STARTED,8<=8<=200,i=7,q=0}
+23 Dec 2019, 16:47:03,986 starting org.eclipse.jetty.server.handler.HandlerCollection@6ed3ef1[org.eclipse.jetty.servlet.ServletHandler@69222c14]
+23 Dec 2019, 16:47:03,986 starting org.eclipse.jetty.server.handler.HandlerCollection@6ed3ef1[org.eclipse.jetty.servlet.ServletHandler@69222c14]
+23 Dec 2019, 16:47:03,986 starting org.eclipse.jetty.servlet.ServletHandler@69222c14
+23 Dec 2019, 16:47:03,991 Chose path=/api mapped to servlet=com.egp.bidding.api.server.JettyServer$JeetyServlet-2f333739 from default=false
+23 Dec 2019, 16:47:03,992 filterNameMap={com.egp.bidding.api.server.CorsFilter-5aaa6d82=com.egp.bidding.api.server.CorsFilter-5aaa6d82}
+23 Dec 2019, 16:47:03,992 pathFilters=[[/*]/[]==1=>com.egp.bidding.api.server.CorsFilter-5aaa6d82]
+23 Dec 2019, 16:47:03,992 servletFilterMap={}
+23 Dec 2019, 16:47:03,992 servletPathMap={/api=com.egp.bidding.api.server.JettyServer$JeetyServlet-2f333739@6801e29b==com.egp.bidding.api.server.JettyServer$JeetyServlet,-1,false}
+23 Dec 2019, 16:47:03,992 servletNameMap={com.egp.bidding.api.server.JettyServer$JeetyServlet-2f333739=com.egp.bidding.api.server.JettyServer$JeetyServlet-2f333739@6801e29b==com.egp.bidding.api.server.JettyServer$JeetyServlet,-1,false}
+23 Dec 2019, 16:47:03,992 Adding Default404Servlet to org.eclipse.jetty.servlet.ServletHandler@69222c14
+23 Dec 2019, 16:47:03,993 org.eclipse.jetty.servlet.ServletHandler@69222c14 added {org.eclipse.jetty.servlet.ServletHandler$Default404Servlet-16b4a017@12176560==org.eclipse.jetty.servlet.ServletHandler$Default404Servlet,-1,false,AUTO}
+23 Dec 2019, 16:47:03,993 org.eclipse.jetty.servlet.ServletHandler@69222c14 added {[/]=>org.eclipse.jetty.servlet.ServletHandler$Default404Servlet-16b4a017,POJO}
+23 Dec 2019, 16:47:03,993 Chose path=/api mapped to servlet=com.egp.bidding.api.server.JettyServer$JeetyServlet-2f333739 from default=false
+23 Dec 2019, 16:47:03,993 Chose path=/ mapped to servlet=org.eclipse.jetty.servlet.ServletHandler$Default404Servlet-16b4a017 from default=false
+23 Dec 2019, 16:47:03,993 filterNameMap={com.egp.bidding.api.server.CorsFilter-5aaa6d82=com.egp.bidding.api.server.CorsFilter-5aaa6d82}
+23 Dec 2019, 16:47:03,994 pathFilters=[[/*]/[]==1=>com.egp.bidding.api.server.CorsFilter-5aaa6d82]
+23 Dec 2019, 16:47:03,994 servletFilterMap={}
+23 Dec 2019, 16:47:03,994 servletPathMap={/api=com.egp.bidding.api.server.JettyServer$JeetyServlet-2f333739@6801e29b==com.egp.bidding.api.server.JettyServer$JeetyServlet,-1,false, /=org.eclipse.jetty.servlet.ServletHandler$Default404Servlet-16b4a017@12176560==org.eclipse.jetty.servlet.ServletHandler$Default404Servlet,-1,false}
+23 Dec 2019, 16:47:03,994 servletNameMap={org.eclipse.jetty.servlet.ServletHandler$Default404Servlet-16b4a017=org.eclipse.jetty.servlet.ServletHandler$Default404Servlet-16b4a017@12176560==org.eclipse.jetty.servlet.ServletHandler$Default404Servlet,-1,false, com.egp.bidding.api.server.JettyServer$JeetyServlet-2f333739=com.egp.bidding.api.server.JettyServer$JeetyServlet-2f333739@6801e29b==com.egp.bidding.api.server.JettyServer$JeetyServlet,-1,false}
+23 Dec 2019, 16:47:03,994 starting com.egp.bidding.api.server.CorsFilter-5aaa6d82
+23 Dec 2019, 16:47:03,994 STARTED @688ms com.egp.bidding.api.server.CorsFilter-5aaa6d82
+23 Dec 2019, 16:47:03,995 Filter.init com.egp.bidding.api.server.CorsFilter@3419866c
+23 Dec 2019, 16:47:03,996 starting com.egp.bidding.api.server.JettyServer$JeetyServlet-2f333739@6801e29b==com.egp.bidding.api.server.JettyServer$JeetyServlet,-1,false
+23 Dec 2019, 16:47:03,997 STARTED @690ms com.egp.bidding.api.server.JettyServer$JeetyServlet-2f333739@6801e29b==com.egp.bidding.api.server.JettyServer$JeetyServlet,-1,false
+23 Dec 2019, 16:47:03,997 starting org.eclipse.jetty.servlet.ServletHandler$Default404Servlet-16b4a017@12176560==org.eclipse.jetty.servlet.ServletHandler$Default404Servlet,-1,false
+23 Dec 2019, 16:47:03,997 STARTED @691ms org.eclipse.jetty.servlet.ServletHandler$Default404Servlet-16b4a017@12176560==org.eclipse.jetty.servlet.ServletHandler$Default404Servlet,-1,false
+23 Dec 2019, 16:47:03,997 starting org.eclipse.jetty.servlet.ServletHandler@69222c14
+23 Dec 2019, 16:47:03,998 STARTED @691ms org.eclipse.jetty.servlet.ServletHandler@69222c14
+23 Dec 2019, 16:47:03,998 STARTED @692ms org.eclipse.jetty.server.handler.HandlerCollection@6ed3ef1[org.eclipse.jetty.servlet.ServletHandler@69222c14]
+23 Dec 2019, 16:47:03,998 starting ServerConnector@6aa8ceb6{HTTP/1.1}{0.0.0.0:8081}
+23 Dec 2019, 16:47:04,188 ServerConnector@6aa8ceb6{HTTP/1.1}{0.0.0.0:8081} added {sun.nio.ch.ServerSocketChannelImpl[/0:0:0:0:0:0:0:0:8081],POJO}
+23 Dec 2019, 16:47:04,188 starting org.eclipse.jetty.util.thread.ScheduledExecutorScheduler@694f9431
+23 Dec 2019, 16:47:04,189 STARTED @884ms org.eclipse.jetty.util.thread.ScheduledExecutorScheduler@694f9431
+23 Dec 2019, 16:47:04,190 starting HttpConnectionFactory@2957fcb0{HTTP/1.1}
+23 Dec 2019, 16:47:04,190 STARTED @884ms HttpConnectionFactory@2957fcb0{HTTP/1.1}
+23 Dec 2019, 16:47:04,190 starting org.eclipse.jetty.server.ServerConnector$ServerConnectorManager@3b95a09c
+23 Dec 2019, 16:47:04,193 starting org.eclipse.jetty.io.SelectorManager$ManagedSelector@65e579dc keys=-1 selected=-1
+23 Dec 2019, 16:47:04,864 STARTED @1558ms org.eclipse.jetty.io.SelectorManager$ManagedSelector@65e579dc keys=0 selected=0
+23 Dec 2019, 16:47:04,865 starting org.eclipse.jetty.io.SelectorManager$ManagedSelector@35bbe5e8 keys=-1 selected=-1
+23 Dec 2019, 16:47:04,865 Starting Thread[qtp1469821799-11-selector-ServerConnectorManager@3b95a09c/0,5,main] on org.eclipse.jetty.io.SelectorManager$ManagedSelector@65e579dc keys=0 selected=0
+23 Dec 2019, 16:47:04,866 Selector loop waiting on select
+23 Dec 2019, 16:47:04,866 STARTED @1560ms org.eclipse.jetty.io.SelectorManager$ManagedSelector@35bbe5e8 keys=0 selected=0
+23 Dec 2019, 16:47:04,866 STARTED @1561ms org.eclipse.jetty.server.ServerConnector$ServerConnectorManager@3b95a09c
+23 Dec 2019, 16:47:04,867 Starting Thread[qtp1469821799-12-selector-ServerConnectorManager@3b95a09c/1,5,main] on org.eclipse.jetty.io.SelectorManager$ManagedSelector@35bbe5e8 keys=0 selected=0
+23 Dec 2019, 16:47:04,867 Selector loop waiting on select
+23 Dec 2019, 16:47:04,867 ServerConnector@6aa8ceb6{HTTP/1.1}{0.0.0.0:8081} added {acceptor-0@3cb5cdba,POJO}
+23 Dec 2019, 16:47:04,868 Started ServerConnector@6aa8ceb6{HTTP/1.1}{0.0.0.0:8081}
+23 Dec 2019, 16:47:04,868 STARTED @1562ms ServerConnector@6aa8ceb6{HTTP/1.1}{0.0.0.0:8081}
+23 Dec 2019, 16:47:04,868 starting ServerConnector@3f8f9dd6{SSL-http/1.1}{0.0.0.0:8443}
+23 Dec 2019, 16:47:04,869 ServerConnector@3f8f9dd6{SSL-http/1.1}{0.0.0.0:8443} added {sun.nio.ch.ServerSocketChannelImpl[/0:0:0:0:0:0:0:0:8443],POJO}
+23 Dec 2019, 16:47:04,873 starting org.eclipse.jetty.util.thread.ScheduledExecutorScheduler@7e774085
+23 Dec 2019, 16:47:04,873 STARTED @1567ms org.eclipse.jetty.util.thread.ScheduledExecutorScheduler@7e774085
+23 Dec 2019, 16:47:04,873 starting SslConnectionFactory@6bf2d08e{SSL-http/1.1}
+23 Dec 2019, 16:47:04,874 starting SslContextFactory@5eb5c224(config/apiegp.jks,null)
+23 Dec 2019, 16:47:05,855 Enabled Protocols [TLSv1, TLSv1.1, TLSv1.2] of [SSLv2Hello, SSLv3, TLSv1, TLSv1.1, TLSv1.2]
+23 Dec 2019, 16:47:05,859 Enabled Ciphers   [TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA, SSL_RSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDH_ECDSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDH_RSA_WITH_3DES_EDE_CBC_SHA, SSL_DHE_RSA_WITH_3DES_EDE_CBC_SHA, SSL_DHE_DSS_WITH_3DES_EDE_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV] of [TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA, SSL_RSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDH_ECDSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDH_RSA_WITH_3DES_EDE_CBC_SHA, SSL_DHE_RSA_WITH_3DES_EDE_CBC_SHA, SSL_DHE_DSS_WITH_3DES_EDE_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV, TLS_DH_anon_WITH_AES_128_GCM_SHA256, TLS_DH_anon_WITH_AES_128_CBC_SHA256, TLS_ECDH_anon_WITH_AES_128_CBC_SHA, TLS_DH_anon_WITH_AES_128_CBC_SHA, TLS_ECDH_anon_WITH_3DES_EDE_CBC_SHA, SSL_DH_anon_WITH_3DES_EDE_CBC_SHA, SSL_RSA_WITH_DES_CBC_SHA, SSL_DHE_RSA_WITH_DES_CBC_SHA, SSL_DHE_DSS_WITH_DES_CBC_SHA, SSL_DH_anon_WITH_DES_CBC_SHA, SSL_RSA_EXPORT_WITH_DES40_CBC_SHA, SSL_DHE_RSA_EXPORT_WITH_DES40_CBC_SHA, SSL_DHE_DSS_EXPORT_WITH_DES40_CBC_SHA, SSL_DH_anon_EXPORT_WITH_DES40_CBC_SHA, TLS_RSA_WITH_NULL_SHA256, TLS_ECDHE_ECDSA_WITH_NULL_SHA, TLS_ECDHE_RSA_WITH_NULL_SHA, SSL_RSA_WITH_NULL_SHA, TLS_ECDH_ECDSA_WITH_NULL_SHA, TLS_ECDH_RSA_WITH_NULL_SHA, TLS_ECDH_anon_WITH_NULL_SHA, SSL_RSA_WITH_NULL_MD5, TLS_KRB5_WITH_3DES_EDE_CBC_SHA, TLS_KRB5_WITH_3DES_EDE_CBC_MD5, TLS_KRB5_WITH_DES_CBC_SHA, TLS_KRB5_WITH_DES_CBC_MD5, TLS_KRB5_EXPORT_WITH_DES_CBC_40_SHA, TLS_KRB5_EXPORT_WITH_DES_CBC_40_MD5]
+23 Dec 2019, 16:47:05,860 STARTED @2553ms SslContextFactory@5eb5c224(config/apiegp.jks,config/apiegp.jks)
+23 Dec 2019, 16:47:05,866 STARTED @2560ms SslConnectionFactory@6bf2d08e{SSL-http/1.1}
+23 Dec 2019, 16:47:05,866 starting HttpConnectionFactory@53e25b76{HTTP/1.1}
+23 Dec 2019, 16:47:05,867 STARTED @2560ms HttpConnectionFactory@53e25b76{HTTP/1.1}
+23 Dec 2019, 16:47:05,867 starting org.eclipse.jetty.server.ServerConnector$ServerConnectorManager@1c655221
+23 Dec 2019, 16:47:05,871 starting org.eclipse.jetty.io.SelectorManager$ManagedSelector@42f93a98 keys=-1 selected=-1
+23 Dec 2019, 16:47:05,873 STARTED @2567ms org.eclipse.jetty.io.SelectorManager$ManagedSelector@42f93a98 keys=0 selected=0
+23 Dec 2019, 16:47:05,873 starting org.eclipse.jetty.io.SelectorManager$ManagedSelector@c46bcd4 keys=-1 selected=-1
+23 Dec 2019, 16:47:05,875 Starting Thread[qtp1469821799-14-selector-ServerConnectorManager@1c655221/0,5,main] on org.eclipse.jetty.io.SelectorManager$ManagedSelector@42f93a98 keys=0 selected=0
+23 Dec 2019, 16:47:05,875 STARTED @2569ms org.eclipse.jetty.io.SelectorManager$ManagedSelector@c46bcd4 keys=0 selected=0
+23 Dec 2019, 16:47:05,875 STARTED @2569ms org.eclipse.jetty.server.ServerConnector$ServerConnectorManager@1c655221
+23 Dec 2019, 16:47:05,875 Selector loop waiting on select
+23 Dec 2019, 16:47:05,875 Starting Thread[qtp1469821799-15-selector-ServerConnectorManager@1c655221/1,5,main] on org.eclipse.jetty.io.SelectorManager$ManagedSelector@c46bcd4 keys=0 selected=0
+23 Dec 2019, 16:47:05,875 ServerConnector@3f8f9dd6{SSL-http/1.1}{0.0.0.0:8443} added {acceptor-0@3234e239,POJO}
+23 Dec 2019, 16:47:05,876 Started ServerConnector@3f8f9dd6{SSL-http/1.1}{0.0.0.0:8443}
+23 Dec 2019, 16:47:05,876 STARTED @2570ms ServerConnector@3f8f9dd6{SSL-http/1.1}{0.0.0.0:8443}
+23 Dec 2019, 16:47:05,876 Started @2571ms
+23 Dec 2019, 16:47:05,877 STARTED @2571ms org.eclipse.jetty.server.Server@5b37e0d2
+23 Dec 2019, 16:47:05,877 BIDDING API SERVER Started ...!!!
+23 Dec 2019, 16:47:05,876 Selector loop waiting on select
