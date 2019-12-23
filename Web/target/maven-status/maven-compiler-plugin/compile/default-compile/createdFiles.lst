@@ -1,0 +1,5 @@
+com\egp\web\service\HttpUtils.class
+com\egp\web\ServingWebContentApplication.class
+com\egp\web\BiddingController.class
+com\egp\web\ContractController.class
+com\egp\web\GreetingController.class
