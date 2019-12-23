@@ -1,22 +1,4 @@
-# Build stage
-
-FROM maven:3.6.1-jdk-8 as maven
-
-WORKDIR /Web
-
-COPY . .
-
-RUN mvn package
-
-CMD ["bash"]
-
-# Final image with jar
-FROM openjdk:8-alpine
-
-WORKDIR /Web
-
-COPY --from=maven /Web/target/web-portal-*.jar ./
-
-EXPOSE 8080
-
-CMD ["java", "-jar", "/Web/target/web-portal-0.1.0.jar"]
+FROM openjdk:8-jdk-alpine
+VOLUME /tmp
+ADD target/web-portal-0.1.0-SNAPSHOT.jar web-portal.jar
+ENTRYPOINT exec java -jar web-portal.jar
