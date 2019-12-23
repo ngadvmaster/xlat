@@ -19,4 +19,4 @@ COPY --from=maven /app/target/web-portal-*.jar ./
 
 EXPOSE 8080
 
-CMD ["java", "-jar", "/app/web-portal-0.1.0.jar"]
+CMD ["java", "-jar", "/app/target/web-portal-0.1.0.jar"]
