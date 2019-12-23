@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<portal>
+	<port>8082</port>
+	<ssl_port>8444</ssl_port>
+	<commands>
+		<command>
+			<id>1</id>
+			<name>ContracsAllProcessor</name>
+			<path>com.egp.contract.api.processors.ContracsAllProcessor</path>
+		</command>		
+		<command>
+			<id>2</id>
+			<name>ContracsProcessor</name>
+			<path>com.egp.contract.api.processors.ContracsProcessor</path>
+		</command>			
+	</commands>
+</portal>
