@@ -1,6 +1,6 @@
 FROM openjdk:8-jdk-alpine
 VOLUME /tmp
-ADD target/Biding.jar contract.jar
+ADD target/Contract.jar contract.jar
 ADD target/config/api_portal.xml config/api_portal.xml
 ADD target/config/apiegp.jks config/apiegp.jks
 ADD target/config/db_pool.properties config/db_pool.properties
