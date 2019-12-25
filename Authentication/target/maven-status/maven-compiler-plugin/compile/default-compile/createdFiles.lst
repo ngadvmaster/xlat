@@ -1,0 +1,12 @@
+com\egp\auth\user\UserService.class
+com\egp\auth\LodaRestController.class
+com\egp\auth\user\User.class
+com\egp\auth\user\UserRepository.class
+com\egp\auth\user\CustomUserDetails.class
+com\egp\auth\App.class
+com\egp\auth\jwt\JwtTokenProvider.class
+com\egp\auth\payload\LoginRequest.class
+com\egp\auth\payload\LoginResponse.class
+com\egp\auth\jwt\JwtAuthenticationFilter.class
+com\egp\auth\WebSecurityConfig.class
+com\egp\auth\payload\RandomStuff.class

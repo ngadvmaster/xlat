@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: authentication
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: hutruc
+Implementation-Vendor-Id: me.loda.spring
+Build-Jdk: 1.8.0_111
+Implementation-URL: https://loda.me/authentication/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: loda.me
+Main-Class: com.egp.auth.App
+
