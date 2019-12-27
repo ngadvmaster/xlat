@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.egp.web.ServingnWebContentApplicationTest
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.816 s - in com.egp.web.ServingnWebContentApplicationTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.746 s - in com.egp.web.ServingnWebContentApplicationTest
