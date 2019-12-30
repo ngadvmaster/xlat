@@ -20,4 +20,4 @@ WORKDIR /Web
 COPY --from=maven /Web/target/web-portal-*.jar ./web-portal-0.1.0.jar
 
 EXPOSE 8080
-CMD ["java", "-jar", "./web-portal-0.1.0.jar"]
+CMD ["java", "-jar", "/Web/target/web-portal-0.1.0-SNAPSHOT.jar"]
