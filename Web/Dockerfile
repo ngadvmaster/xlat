@@ -15,7 +15,7 @@ FROM openjdk:8-alpine
 
 WORKDIR /Web
 
-# RUN chmod +x /Web/target/web-portal-0.1.0-SNAPSHOT.jar
+RUN chmod +x /Web/target/web-portal-0.1.0-SNAPSHOT.jar
 
 COPY --from=maven /Web/target/web-portal-*.jar ./web-portal-0.1.0.jar
 
